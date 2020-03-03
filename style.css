@@ -1,0 +1,166 @@
+body {
+    width: 1330px;
+    margin: 17px auto 100px auto;
+    padding-left: 62px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.top-image {
+    margin-top: 18px;
+    margin-left: 133px;
+}
+
+header .logo {
+    display: inline-block;
+    font-family: "Futura PT";
+    font-size: 48px;
+    font-weight: 500;
+}
+
+header .links {
+    margin-left: 46px;
+    display: inline-block;
+}
+
+.link {
+    display: inline-block;
+    font-family: "Futura PT";
+    font-size: 22px;
+    margin-left: 8px;
+}
+
+.link.selected {
+    background-color: #9cd3ce;
+    padding-left: 5px;
+    padding-bottom: 1px;
+    padding-right: 14px;
+    margin-left: 3px;
+}
+
+.link.selected a {
+    border-bottom: none;
+}
+
+.link a {
+    display: inline-block;
+    color: black;
+    border-bottom: 1px solid black;
+    line-height: 23px;
+}
+
+.link a:hover {
+    text-decoration: none;
+}
+
+header .phone {
+    display: inline-block;
+    font-family: "Futura PT";
+    font-size: 22px;
+}
+  
+.heading {
+    font-family: "Futura PT";
+    font-weight: 500;
+    width: 1170px;
+    margin-top: 82px;
+    margin-bottom: 103px;
+}
+
+.heading h1 {
+    font-size: 85px;
+    font-weight: 500;
+}
+
+.heading p {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.text {
+    font-family: "Garamond";
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.text-block {
+    width: 900px;
+}
+
+.block {
+    margin-top: 47px;
+}
+
+.block-heading {
+    font-family: "Futura PT";
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 6px;
+    margin-bottom: 3px;
+}
+
+.half-width {
+    display: inline-block;
+    width: 562px;
+}
+
+.half-width.right {
+    margin-left: 39px;
+}
+
+.vyazka-block {
+    width: 820px;
+    margin-top: 64px;
+}
+
+.vyazka-block h3 {
+    font-family: "Futura PT";
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 21px;
+}
+
+.items {
+    margin-top: 60px;
+}
+
+.item {
+    text-align: center;
+}
+
+.item-link {
+    margin-top: 26px;
+}
+
+.item-image.bottom {
+    height: 690px;
+    width: 100%;
+    object-fit: none;
+}
+
+.links .link:first-child {
+    margin-left: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-top: 153px;
+}
+
+footer .links {
+    display: inline-block;
+}
+
+footer .copyright {
+    display: inline-block;
+    font-family: "Futura PT";
+    font-size: 22px;
+    font-weight: 500;
+    color: black;
+}
