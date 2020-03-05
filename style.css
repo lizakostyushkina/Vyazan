@@ -1,7 +1,62 @@
+a {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.logo {
+    font: 500 48px/60px futura-pt, sans-serif;
+}
+
+.text {
+    font: 500 22px/30px futura-pt, sans-serif;
+}
+
+.text.underline {
+    border-bottom: 1px solid black;
+    height: 27px;
+}
+
+h1 {
+    font: 500 85px/90px futura-pt, sans-serif;
+    margin-bottom: 0.3em;
+}
+
+h2 {
+    font: 700 36px/30px futura-pt-bold, sans-serif;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font: 500 36px/30px futura-pt, sans-serif;
+    margin-bottom: 0.4em;
+}
+
+p {
+    font: 400 22px/30px adobe-garamond-pro, serif;
+    width: 80%;
+    margin-bottom: 2.1em;
+}
+
+p.title {
+    font: 500 30px/40px futura-pt, sans-serif;
+    margin-bottom: 3.5em;
+    width: unset;
+}
+
 body {
-    width: 1330px;
-    margin: 17px auto 100px auto;
-    padding-left: 62px;
+    min-width: 1000px;
+    max-width: 1440px;
+    margin: 24px auto 100px auto;
+    padding: 0 3.7% 0 8%;
+    color: black;
 }
 
 header {
@@ -10,157 +65,75 @@ header {
     align-items: baseline;
 }
 
-.top-image {
-    margin-top: 18px;
-    margin-left: 133px;
-}
-
-header .logo {
-    display: inline-block;
-    font-family: "Futura PT";
-    font-size: 48px;
-    font-weight: 500;
-}
-
-header .links {
-    margin-left: 46px;
-    display: inline-block;
+header .left {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 75%;
+    max-width: 722px;
+    min-width: 682px;
 }
 
 .link {
     display: inline-block;
-    font-family: "Futura PT";
-    font-size: 22px;
-    margin-left: 8px;
+    margin-left: 4px;
 }
 
 .link.selected {
     background-color: #9cd3ce;
-    padding-left: 5px;
-    padding-bottom: 1px;
-    padding-right: 14px;
-    margin-left: 3px;
+    padding: 1px 11px 2px 5px;
 }
 
-.link.selected a {
-    border-bottom: none;
+main {
+    padding-right: 8.2%;
 }
 
-.link a {
-    display: inline-block;
-    color: black;
-    border-bottom: 1px solid black;
-    line-height: 23px;
+.top-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
-.link a:hover {
-    text-decoration: none;
+.two-column {
+    display: flex;
+    justify-content: space-between;
 }
 
-header .phone {
-    display: inline-block;
-    font-family: "Futura PT";
-    font-size: 22px;
-}
-  
-.heading {
-    font-family: "Futura PT";
-    font-weight: 500;
-    width: 1170px;
-    margin-top: 82px;
-    margin-bottom: 103px;
+.two-column .column {
+    max-width: 561px;
+    width: 48%;
 }
 
-.heading h1 {
-    font-size: 85px;
-    font-weight: 500;
+.info-block img {
+    margin-bottom: 18px;
 }
 
-.heading p {
-    font-size: 30px;
-    line-height: 40px;
-}
-
-.text {
-    font-family: "Garamond";
-    font-size: 22px;
-    line-height: 30px;
-}
-
-.text-block {
-    width: 900px;
-}
-
-.block {
-    margin-top: 47px;
-}
-
-.block-heading {
-    font-family: "Futura PT";
-    font-size: 36px;
-    font-weight: 500;
-    margin-top: 6px;
-    margin-bottom: 3px;
-}
-
-.half-width {
-    display: inline-block;
-    width: 562px;
-}
-
-.half-width.right {
-    margin-left: 39px;
-}
-
-.vyazka-block {
-    width: 820px;
-    margin-top: 64px;
-}
-
-.vyazka-block h3 {
-    font-family: "Futura PT";
-    font-size: 36px;
-    font-weight: bold;
-    margin-bottom: 21px;
+.info-block p {
+    width: unset;
+    margin-bottom: 4.2em;
 }
 
 .items {
-    margin-top: 60px;
-}
-
-.item {
-    text-align: center;
+    margin: 55px 0 84px 0;
 }
 
 .item-link {
-    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.item-image.bottom {
-    height: 690px;
-    width: 100%;
-    object-fit: none;
-}
-
-.links .link:first-child {
-    margin-left: 0;
+.item-link .text {
+    margin-top: 23px;
 }
 
 footer {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-top: 153px;
+    margin-top: 155px;
 }
 
-footer .links {
-    display: inline-block;
-}
-
-footer .copyright {
-    display: inline-block;
-    font-family: "Futura PT";
-    font-size: 22px;
-    font-weight: 500;
-    color: black;
+footer .link:first-child {
+    margin-left: unset;
 }
